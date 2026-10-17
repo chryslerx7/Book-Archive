@@ -1,7 +1,14 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.BookArchive" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    <style name="LightGreyButtonTheme" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/light_grey</item>
+        <item name="android:textColor">@color/button_text_dark</item>
+        <item name="cornerRadius">8dp</item> <!-- Optional: adjust rounding if needed -->
     </style>
+
+    <style name="RedBottomNavTheme" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:background">@color/nav_red</item>
+        <item name="itemIconTint">@color/white</item>
+        <item name="itemTextColor">@color/white</item>
+    </style>
+    <style name="Theme.BookArchive" parent="Base.Theme.BookArchive" />
 </resources>

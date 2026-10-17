@@ -12,6 +12,7 @@
     <TextView
         android:id="@+id/tvAppBrand"
         android:layout_width="wrap_content"
+
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginTop="24dp"
@@ -93,7 +94,7 @@
     <!-- Pop button -->
     <Button
         android:id="@+id/btnPopLatest"
-        android:background="#E0E0E0"
+        app:backgroundTint="#D3D3D3"
         android:textColor="#000000"
         android:layout_width="0dp"
         android:layout_height="48dp"
@@ -118,10 +119,11 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <!-- Bottom nav -->
+    <!-- Home Button -->
     <Button
         android:id="@+id/btnHome"
-        android:background="#E0E0E0"
-        android:textColor="#000000"
+        android:backgroundTint="#FF0000"
+        android:textColor="#FFFFFF"
         android:layout_width="0dp"
         android:layout_height="56dp"
         android:text="Home"
@@ -129,10 +131,11 @@
         app:layout_constraintEnd_toStartOf="@id/btnData"
         app:layout_constraintStart_toStartOf="parent" />
 
+    <!-- Data Button -->
     <Button
         android:id="@+id/btnData"
-        android:background="#E0E0E0"
-        android:textColor="#000000"
+        android:backgroundTint="#FF0000"
+        android:textColor="#FFFFFF"
         android:layout_width="0dp"
         android:layout_height="56dp"
         android:text="Data"
